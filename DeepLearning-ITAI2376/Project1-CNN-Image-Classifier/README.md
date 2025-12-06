@@ -1,28 +1,30 @@
-# Project 1 — CNN Image Classifier (CIFAR-10)
+# CNN Image Classifier — CIFAR-10
 
-## 📌 Overview
-This project trains a Convolutional Neural Network (CNN) on the CIFAR-10 dataset to classify images into 10 categories.
+## 📌 Project Overview
+This project builds and trains a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into 10 categories. It demonstrates image preprocessing, model construction, training loops, evaluation, and visualization.
 
 ## 🔍 Problem Statement
-Build an image classifier capable of recognizing objects such as airplanes, cats, cars, and ships.
+The goal of this project is to correctly classify small color images into categories such as airplanes, birds, cats, dogs, cars, and more. The challenge is training a deep model that generalizes well on a diverse dataset.
 
-## 🧠 Methodology
-- Custom CNN built using PyTorch  
-- Trained using Adam optimizer  
-- Data augmentation for robustness  
-- Evaluated on accuracy and loss  
+## 🧠 Approach & Methodology
+- Loaded CIFAR-10 dataset through PyTorch  
+- Applied normalization and augmentation  
+- Built a CNN with convolution, ReLU, pooling, and fully connected layers  
+- Trained with Adam optimizer  
+- Evaluated using accuracy and training loss  
 
-## 🧪 Results
-Placeholder results:
-- Accuracy: **~75%**
-- Loss reduced steadily over training
+## 🧪 Results & Evaluation
+Placeholder metrics (since training varies):
+- Training accuracy reached: **~75–80%**
+- Loss decreased consistently over epochs  
 
-## 🧬 Learning Outcomes
-- Understanding CNN architecture  
-- Training neural networks in PyTorch  
-- Evaluating classification models  
+## 📚 Learning Outcomes
+During this project, I learned:  
+- How CNNs process visual data  
+- How to build a full deep learning pipeline  
+- How to evaluate image model performance  
 
-## ▶️ Run Instructions
+## ▶️ How to Run the Code
 ```bash
 pip install -r requirements.txt
 python train.py
