@@ -1,6 +1,0 @@
-__pycache__/
-*.tflite
-*.h5
-.env
-*.pio/
-*.bin
